@@ -53,7 +53,7 @@ let checkWinner = () => {
 
     let totalScore = parseInt(score.textContent) + parseInt(currentPlayerScore.textContent)
 
-    if (totalScore >= 10) {
+    if (totalScore >= 40) {
         const message = document.querySelector('#message');
         message.textContent = "Player " + currentPlayer + " Won !!!";
         message.style.backgroundColor = '#ba8a5eff'
